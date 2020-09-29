@@ -1,46 +1,86 @@
 <!DOCTYPE html>
-
-<html lang="en" id="Home">
 <head>
-    <link rel="stylesheet" href="css/styles.css"> 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML Project Index Page</title>
+    <link rel="stylesheet" href="styles.css"> 
 </head>
-<div class="sidebar">
-        <a href = "index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="resume.html">Resume</a>
-        <a href="contact.html">Contact</a>
-</div>
+<header>
+    <div class="navBarContainer">
+        <nav class="upperNav">
+            <ul>
+                <li><a href= "#" >About</a></li>
+                <li><a href= "#" >Projects</a></li>
+                <li><a href= "#" >Contact</a></li>
+                <li><a href= "#" >Resume</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body> 
+    <div class="openingPic">
+        
+    </div>
 
-<body class="home">
     
-    <h2>Michael Stroner</h2>
-    <p>My name is Mike Stroner and I am a recent Computer Science graduate from Northern Illinois University. </p>
-    <p>My passion in life is software engineering and coding.</p>
-    <h2><u>Education</u></h2>
-    <h4>Northern Illinois University   <br>Course Work:</h4>
-    
-    <p> CSCI 240 - Intro to C++ </p>
-    <p> CSCI 241 - Intermediate C++ </p>
-    <p> CSCI 330 - UNIX and Network Programming</p>
-    <p> CSCI 340 - Algorithms </p>
-    <p> CSCI 360 - Intro to Assembly Language </p>
-    <p> CSCI 467 - Intro to Software Engineering </p>
-    <p> CSCI 473 - C# Programming in .NET </p>
-    <p> CSCI 480 - Principles in Operating Systems </p>
-    <p> CSCI 490 - Computer Graphics </p>
 
-    <h2><u>Projects</u></h2>
-    <h4>Capstone Website</h4>
-    <h4>C# Transaction Tracker</h4>
-    <h4>Pomodoro Timer Website</h4>
+    <div class="eduContainer"> 
+        <h3>About Me</h3>
+        <p> I am a recent Computer Science graduate from Northern Illinois University with an emphasis in Software Development. <br><br>
+            My passion has always been in technology for as long as I can remember which is why I chose Computer Science as my career. <br>
+            I love learning new technologies and I am open to new job opportunities.
+        </p>
+            <div class="eduParrallax">
+            
+            </div>
+    </div>
+
+    <div class = "Projects">
+        <h2>Projects</h2>
+    </div>
+
+    <div class="projectsContainer">
+        <div class = "row">
+            <div class="column">
+                <img src="img/StatementScraper.PNG">
+                <div class="text-block">
+                    <p>Program which parses text files and presents the data as a transaction
+                        log. <br>Grouped by yearly transactions.</p>
+                </div>
+                <img src="img/JSPomo.PNG">
+                <div class="text-block-2">
+                    <p>Front end productivity timer developed for the purpose of gaining familiarity with
+                        JavaScript. <br> Meticulously Stylized with CSS.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "row">
+            <div class="column">
+                <img src="img/CapStone.png">
+                <div class="text-block-3">
+                    <p>Collaborative project to develop a coherent user interface which tracks
+                        transactions across different users. <br>User privacy is secured with unique
+                        username/password combinations.</p>
+                </div>
+               
+        </div>
+       
+        
+
+    </div>
+
+
     
+
+
+
+
+
+    
+
+
 
 </body>
-<div class="footerHome"></div>
+
 
 
 </html>
+

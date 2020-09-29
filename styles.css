@@ -1,0 +1,230 @@
+html, body{
+    margin: 0; 
+}
+h2{
+    font-size:42px;
+}
+
+.navBarContainer{
+    width:80%;
+    margin: 0 auto;
+
+}
+
+header{
+    background: Black;
+}
+
+header::after{
+    content: '';
+    display:table;
+    clear:both;
+}
+
+.upperNav ul{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    text-align: center; 
+    list-style:none; 
+}
+
+.upperNav li{
+    display: inline-block; 
+    margin-left: 70px; 
+    padding-bottom:15px; 
+    padding-top:25px; 
+    
+    position:relative;
+}
+
+.upperNav a{
+    color: white;
+    text-decoration: none; 
+    text-transform: uppercase;
+    font-size: 14px; 
+}
+
+
+
+.upperNav a:before{
+    content: '';
+    display: block;
+    height:5px;
+    
+    background-color: #444;
+
+    position: absolute; 
+    top:0;
+    width:0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+.upperNav a:hover:before{
+    width: 100%;
+}
+
+
+.openingPic{
+    background: url(img/code.jpg) no-repeat center; 
+
+    margin:0 auto; 
+    font-size: 0; 
+    max-width: 1920px;
+    height: 1080px;  
+    
+
+}
+
+
+.eduContainer{
+
+    max-width:1920px; 
+    margin: 0 auto; 
+    font-size: 24px; 
+    text-align: center;
+  
+
+    background: whitesmoke;
+
+}
+
+
+.eduParrallax{
+    background: url('img/Northern.jpg') no-repeat;
+    background-size: cover; 
+   
+    background-attachment: fixed;
+    height: 500px; 
+   
+
+    text-align:center;
+    color: white; 
+}
+
+.Projects{
+    text-align: center; 
+    margin-top: 3%; 
+}
+
+
+
+.projectsContainer{
+    margin: 0 auto; 
+}
+
+.column{
+    position: relative;
+    
+}
+
+.text-block{
+  position:absolute; 
+  top:6px;
+  left:6px;
+  
+  height:445px;
+  width:445px;
+
+  text-align:center;
+  color: black;
+  z-index:0;
+  opacity: 1;
+  
+}
+
+.text-block-2{
+    position:absolute; 
+    top:0px;
+    left:465px;
+    
+    height:445px;
+    width:445px;
+  
+    text-align:center;
+    color: black;
+    background-color: white;
+    z-index:0;
+    opacity: 1;
+    
+}
+
+.text-block-3{
+    position:absolute; 
+    top:6px;
+    left:6px;
+    
+    height:445px;
+    width:445px;
+
+    padding-left:5px;
+  
+    text-align:center;
+    color: black;
+    z-index:0;
+    opacity: 1;
+    
+  }
+
+.text-block p, .text-block-2 p, .text-block-3 p{
+    text-align: center;
+    margin-top:50%; 
+    padding-left:10px;
+    
+}
+
+.column img{
+
+    width: 450px;
+    height: 450px;
+    object-fit: cover; 
+    margin: 0 auto;
+    align-items: center; 
+
+    border-style:solid;
+    border-width: 5px;
+    position:relative;
+
+    z-index:5;
+   
+}
+
+.row{
+    display:flex; 
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.column img:hover{
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    opacity:0.2;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
