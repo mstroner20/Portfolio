@@ -222,12 +222,64 @@ header::after{
     
 }
 
-
-
-.bottomBar{
-    
+footer{
+    background: black;
 }
 
+.footerNavBarContainer{
+    width:80%;
+    margin: 0 auto;
+
+}
+
+
+.bottomNav ul{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    text-align: center; 
+    list-style:none; 
+}
+
+.bottomNav li{
+    display: inline-block; 
+    margin-left: 70px; 
+    padding-bottom:15px; 
+    padding-top:25px; 
+    
+    position:relative;
+}
+
+.bottomNav a{
+    color: white;
+    text-decoration: none; 
+    text-transform: uppercase;
+    font-size: 14px; 
+}
+
+
+
+.bottomNav a:before{
+    content: '';
+    display: block;
+    height:5px;
+    
+    background-color: #444;
+
+    position: absolute; 
+    top:0;
+    width:0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+.bottomNav a:hover:before{
+    width: 100%;
+}
+
+.bottomNav img{
+    z-index:6;
+}
 
 
 
