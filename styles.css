@@ -100,9 +100,6 @@ header::after{
     width: 500px; 
 
 
-   
-  
-
     background-color:rgba(0, 0, 0, .8);
     background-blend-mode: darken;
 
@@ -207,7 +204,31 @@ header::after{
     height:445px;
     width:445px;
 
-    padding-left:920px;
+    padding-top: 450px; 
+
+    
+  
+    text-align:center;
+    color: black;
+    z-index:0;
+    opacity: 1;
+    
+  }
+
+  .text-block-4{
+    position:absolute; 
+    top:6px;
+    left:6px;
+
+    padding-left: 465px; 
+    
+    
+    height:445px;
+    width:445px;
+
+    padding-top: 650px; 
+
+    
   
     text-align:center;
     color: black;
