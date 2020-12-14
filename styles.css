@@ -1,8 +1,12 @@
 html, body{
-    margin: 0; 
+    margin: 0;
+    background: rgb(16,16,16) 
 }
 h2{
     font-size:42px;
+}
+h3, p{
+    color: white;
 }
 
 .navBarContainer{
@@ -127,7 +131,7 @@ header::after{
     text-align: center;
   
 
-    background: white;
+    background: rgb(16,16,16);
 
 }
 
@@ -149,6 +153,8 @@ header::after{
     margin-top: 3%; 
 
     font-family: 'Piazzolla', serif;
+    color:white;
+
 
 }
 
@@ -175,6 +181,7 @@ header::after{
 
   text-align:center;
   color: black;
+   
   z-index:0;
   opacity: 1;
   
@@ -182,15 +189,15 @@ header::after{
 
 .text-block-2{
     position:absolute; 
-    top:0px;
+    top:2px;
     left:465px;
     
-    height:445px;
+    height:455px;
     width:445px;
   
     text-align:center;
     color: black;
-    background-color: white;
+   
     z-index:0;
     opacity: 1;
     
@@ -198,18 +205,19 @@ header::after{
 
 .text-block-3{
     position:absolute; 
-    top:6px;
+    top:26px;
     left:6px;
     
     height:445px;
     width:445px;
 
-    padding-top: 450px; 
+    padding-top: 420px; 
 
     
   
     text-align:center;
-    color: black;
+    color: white;
+    
     z-index:0;
     opacity: 1;
     
@@ -226,7 +234,7 @@ header::after{
     height:445px;
     width:445px;
 
-    padding-top: 650px; 
+    padding-top: 460px; 
 
     
   
@@ -237,7 +245,7 @@ header::after{
     
   }
 
-.text-block p, .text-block-2 p, .text-block-3 p{
+.text-block p, .text-block-2 p, .text-block-3 p, .text-block-4 p{
     text-align: center;
     margin-top:50%; 
     padding-left:10px;
@@ -247,7 +255,8 @@ header::after{
     font-family: 'Piazzolla', serif;
     font-size: 16px;
     font-style:bold;
-    color:black;
+    color:white;
+   
     
 }
 
@@ -271,6 +280,7 @@ header::after{
     z-index:5;
    
 }
+
 
 .row{
     display:flex; 
